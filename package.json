@@ -1,12 +1,24 @@
 {
-  "name": "localtunnel",
-  "version": "0.0.0",
+  "name": "localhost-tunnel",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "firebase-admin": "^5.12.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesDaniel/localhost-tunnel.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "bugs": {
+    "url": "https://github.com/JamesDaniel/localhost-tunnel/issues"
+  },
+  "homepage": "https://github.com/JamesDaniel/localhost-tunnel#readme"
 }
